@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(0, 0, 0, 0.938);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#eee;;
+}
+
+.App{
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.total-price{
+    margin-top: 20px;
+}
+
+.total-price h2{
+    font-size: 1.5rem;
+    color: #727171;
+}
+
+
+@media (max-width: 768px) {
+    .App {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .total-price h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .App {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.2rem;
+    }
+  
+    .total-price h2 {
+      font-size: 1rem;
+    }
+  }
